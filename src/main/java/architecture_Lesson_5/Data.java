@@ -4,7 +4,6 @@ public class Data {
     public double getDayTemperature() {
         return dayTemperature;
     }
-
     public double getNightTemperature() {
         return nightTemperature;
     }
