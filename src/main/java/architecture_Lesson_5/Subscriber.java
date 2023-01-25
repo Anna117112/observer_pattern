@@ -3,6 +3,7 @@ package architecture_Lesson_5;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
+
 public class Subscriber implements PropertyChangeListener {
     private String name;
     //private Data data = new Data();

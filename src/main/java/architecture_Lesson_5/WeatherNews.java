@@ -7,9 +7,7 @@ import java.beans.PropertyChangeSupport;
 public class WeatherNews {
 
     private Data data;
-
-
-
+    
     // import java.beans.PropertyChangeSupport; при подключении этого пакета может подключать и отключать подписчиков (слушателей)
     private final PropertyChangeSupport support = new PropertyChangeSupport(this);
 
